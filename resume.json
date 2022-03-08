@@ -1,0 +1,64 @@
+{
+  "basics": {
+    "name": "Joel Rosenthal",
+    "email": "joel.rosenthal@gmail.com",
+    "phone": "(847) 406-6028"
+  },
+  "work": [
+    {
+      "company": "GoHealth",
+      "position": "Data Engineer",
+      "website": "https://www.gohealth.com/",
+      "startDate": "2020-11-09",
+      "summary": "GoHealth's GoHealth sells Medicare Advantage, MediGap, and Medicare Part D health insurance plans for a variety of states and providers.  My team is responsible for consuming, storing, and making available data from various carriers, vendors, and internal tools. \n\n When I started, the stack consisted of Airflow for ingestion, SSIS for ETL, and SQL Server for a database. Within the first year, we began transitioning to AWS. I was the first on the team to work with Redshift and have been able to guide design decisions and build critical migration tooling. This change made it possible to query and visualize orders of magnitude more data than our on-prem platform in a reasonable amount of time.",
+      "highlights": [
+        "Build mechanism to incrementally push changes from SQL Server/SSIS based datawarehouse to AWS environment with Redshift and Apache Airflow",
+        "Implement system to enable analysts to deploy business logic intensive transformations in data warehouse and aleviate data bottleneck",
+        "Update internal SQL and Python tooling for performance optimization, tracability, and customer privacy",
+        "Work with business stakeholds and analytics teams to inform design and better serve business goals",
+        "Serve as onboarding buddy to new data engineers and assist in familiarization with critical technical and business concepts"
+      ]
+    },
+    {
+      "company": "cleverbridge",
+      "position": "Technical Solutions Engineer",
+      "website": "https://cleverbridge.com",
+      "startDate": "2018-05-21",
+      "endDate": "2020-10-30",
+      "summary": "cleverbridge provides e-commerce solutions internationally for software and other digital goods. In practical terms, that means handling all aspects of software sale from translated shopping carts to subscription payments. \n\n  The majority of my responsibilities   originate from the digital marketing services department who cleverbridge clients can partner with on a contract basis for email and performance-based marketing. I am responsible for ensuring data is synchronized between our internal data sources and external marketing providers. Through a combination of finely tuned processes and custom software, I've been able to standardize the request process to reduce questions and time required, construct a monitoring system to identify failures and errors quickly, and update scripts and applications to support reuse across clients.",
+      "highlights": [
+        "Synchronize data between e-commerce application and various marketing service providers using Python, PHP, PL/SQL and MySQL",
+	"Build and maintain internal PHP and Python packages to standardize 3rd party integrations",
+        "Identify and mitigate bugs to ensure compliance with PCI, DSS, and local regulations",
+        "Plan and lead instructional sessions on network/internet communication and intermediate version control",
+        "Mentor developers and interns on Python, Git, MySQL, object oriented architecture, and stakeholder communication",
+        "Use Apache Airflow to provide quality assurance checks for data engineering team"
+
+      ]
+    },
+    {
+      "company": "Tech@MyDesk",
+      "position": "Developer/Project Manager",
+      "website": "https://techatmydesk.com",
+      "startDate": "2012-08-09",
+      "endDate": "2018-05-18",
+      "summary": "Tech@MyDesk is a managed IT provider serving a variety of customer types throughout the city of Chicago and surrounding suburbs. As the role of the web in business has changed, I've had the opportunity to develop and manage everything from informational websites to custom applications.\n\nMy position with Tech@MyDesk arose from clients’ needs for a presence on the web. Initially, that meant designing an informational website but as time progressed and cloud-based applications came into vogue, clients started requesting custom applications and integration between applications. Depending on the requirements of a specific project, I typically assume the role of the developer building or augmenting solutions or as the project manager overseeing development to ensure that a quality product is delivered on time and on budget. This varied role allows me to understand granular details of a project without losing focus on of the overall plan.",
+      "highlights": [
+        "Develop and manage web applications using PHP, Laravel, Lumen, PHPUnit, MySQL, PostgreSQL, Redis, and Composer",
+        "Translate client’s practical expectations into technical requirements for development",
+        "Design and implement software solutions for third party integrations with REST APIs, webhooks, and ETL tools",
+        "Leverage unit and functional tests to verify existing functionality and ensure consistency in changes",
+        "Consolidate and centralize clients hosting environments to Azure with resulting cost reduction up to 70%, increased security, and greater ease of management ",
+        "Provide development consultation on full-stack development with PHP, Laravel, and VueJS"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "DePaul University",
+      "area": "Bachelors of Science in Business",
+      "startDate": "2009-09-02",
+      "endDate": "2013-08-23"
+    }
+  ]
+}
